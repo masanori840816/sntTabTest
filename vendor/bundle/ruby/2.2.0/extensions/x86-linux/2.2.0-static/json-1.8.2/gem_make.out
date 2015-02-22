@@ -1,0 +1,9 @@
+/home/masanori/.rbenv/versions/2.2.0/bin/ruby -r ./siteconf20150220-14018-1xd1nuo.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+make "DESTDIR=" install

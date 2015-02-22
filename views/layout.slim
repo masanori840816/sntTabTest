@@ -1,0 +1,13 @@
+doctype html
+html
+	head
+		meta charset="utf-8"
+		title TabTest
+		link href="/css/stylesheet.css" rel="stylesheet"
+	body onload==@updateTabs
+		main#main
+			== yield
+		script src='/js/jquery-2.1.3.min.js'
+		script src='/js/underscore-min.js'
+		script src='/js/backbone-min.js'
+		script src='/js/javascript.js'

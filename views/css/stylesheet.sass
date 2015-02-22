@@ -1,0 +1,202 @@
+$screen_s: 768px
+$screen_m_from: 769px
+$screen_m_to: 1536px
+$screen_l: 1537px
+
+@media only screen and (max-width: $screen_s)
+	#main
+		background-color: green
+		height: 350px
+		width: 600px
+	.btn_label
+		font-size: 10px
+		height: 100%
+		width: 20%
+		border: 1px solid #000
+		border-radius: 5px
+		float: left
+	#zero_1
+		border-radius: 50%
+		height: 190px
+		width: 140px
+		margin: 40px 0px 0px 230px
+		overflow: hidden
+	#zero_2
+		border-radius: 50%
+		height: 160px
+		width: 110px
+		margin: 15px 0px 0px 15px
+	#one_1
+		height: 45px
+		width: 15px
+		margin: 40px 0px 0px 282.5px
+		transform: rotate(45deg)
+		-moz-transform: rotate(45deg)
+		-webkit-transform: rotate(45deg)
+	#one_2
+		height: 190px
+		width: 15px
+		margin: -43.5px 0px 0px 300px
+	#one_3
+		height: 15px
+		width: 76px
+		margin: 0px 0px 0px 269.5px
+@media only screen and (min-width: $screen_m_from) and (max-width: $screen_m_to)
+	#main
+		background-color: red
+		height: 525px
+		width: 900px
+	.btn_label
+		font-size: 15px
+		height: 100%
+		width: 20%
+		border: 1px solid #000
+		border-radius: 7.5px
+		float: left
+	#zero_1
+		border-radius: 50%
+		height: 285px
+		width: 210px
+		margin: 60px 0px 0px 345px
+		overflow: hidden
+	#zero_2
+		border-radius: 50%
+		height: 240px
+		width: 165px
+		margin: 22.5px 0px 0px 22.5px
+	#one_1
+		height: 67.5px
+		width: 22.5px
+		margin: 60px 0px 0px 423.75px
+		transform: rotate(45deg)
+		-moz-transform: rotate(45deg)
+		-webkit-transform: rotate(45deg)
+	#one_2
+		height: 285px
+		width: 22.5px
+		margin: -65.25px 0px 0px 450px
+	#one_3
+		height: 22.5px
+		width: 114px
+		margin: 0px 0px 0px 404.25px
+
+@media only screen and (min-width: $screen_l)
+	#main
+		background-color: blue
+		height: 700px
+		width: 1200px
+	.btn_label
+		font-size: 20px
+		height: 100%
+		width: 20%
+		border: 1px solid #000
+		border-radius: 10px
+		float: left
+	#zero_1
+		border-radius: 50%
+		height: 380px
+		width: 280px
+		margin: 80px 0px 0px 460px
+		overflow: hidden
+	#zero_2
+		border-radius: 50%
+		height: 320px
+		width: 220px
+		margin: 30px 0px 0px 30px
+	#one_1
+		height: 90px
+		width: 30px
+		margin: 80px 0px 0px 565px
+		transform: rotate(45deg)
+		-moz-transform: rotate(45deg)
+		-webkit-transform: rotate(45deg)
+	#one_2
+		height: 380px
+		width: 30px
+		margin: -87px 0px 0px 600px
+	#one_3
+		height: 30px
+		width: 152px
+		margin: 0px 0px 0px 539px
+
+#arrow_button_left
+	left: -999px
+	position: absolute
+	top: -999px
+#arrow_button_right
+	left: -999px
+	position: absolute
+	top: -999px
+input[type="radio"]
+	top: -999px
+	left: -999px
+	position: absolute
+
+#tab_frame
+	height: 10%
+	width: 100%
+.arrow_label
+	background-color: #FFF
+	height: 100%
+	width: 3.3%
+	border: 1px solid #000
+	border-radius: 5%
+	float: left
+
+.button_arrow:disabled + .arrow_label
+	background-color: #111
+	border: 1px solid #FFF
+
+.tab_label
+	height: 100%
+	width: 140px
+	border: 1px solid #000
+	border-radius: 5%
+	float: left
+#tab_label_0
+	background-color: #FFF
+#tab_0:checked + #tab_label_0
+	background-color: #000
+#tab_label_1
+	background-color: #FFF
+#tab_1:checked + #tab_label_1
+	background-color: #000
+#tab_label_2
+	background-color: #FFF
+#tab_2:checked + #tab_label_2
+	background-color: #000
+#tab_label_3
+	background-color: #FFF
+#tab_3:checked + #tab_label_3
+	background-color: #000
+#tab_label_4
+	background-color: #FFF
+#tab_4:checked + #tab_label_4
+	background-color: #000
+
+#btn_frame
+	height: 5%
+	width: 100%
+	overflow: hidden
+
+#btn_label_0
+	background-color: #386B88
+#btn_0:checked + #btn_label_0
+	background-color: #DEB67E
+#btn_label_1
+	background-color: #386B88
+#btn_1:checked + #btn_label_1
+	background-color: #DEB67E
+
+#contents_frame
+	background-color: #7AB900
+	height: 84.8%
+	width: 100%
+	overflow: hidden
+
+.zero
+	background-color: #E7850E
+.zero_inside
+	background-color: #7AB900
+.one
+	background-color: #E7850E
